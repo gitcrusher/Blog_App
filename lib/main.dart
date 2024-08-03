@@ -1,4 +1,5 @@
 import 'package:blog_app/core/theme/theme.dart';
+import 'package:blog_app/features/auth/presentation/pages/login_page.dart';
 import 'package:blog_app/features/auth/presentation/pages/signup_page.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       title: 'My Blog',
       theme: AppTheme
           .darkThemeMode, // this redirect to the theme.dart file inside core and theme which is a global data .
-      home: const SignUpPage(),
+      home: const LOginPage(),
     );
   }
 }
